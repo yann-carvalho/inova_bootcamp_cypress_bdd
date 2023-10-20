@@ -34,8 +34,8 @@ Contexto:
         E a senha <senha>
         Então deve ser exibida a mensagem <mensagem>
         Exemplos:
-        |       usuario       |        senha         |        mensagem        |
-        |  "usuario_invalido"  |   "secret_sauce"   |    "Epic sadface: Username and password do not match any user in this service"    |
-        |   "standard_user"   |   "chama_na_bota"   |    "Epic sadface: Username and password do not match any user in this service"    |
-        |   usuario em branco   |    "secret_sauce"     |    "Epic sadface: Username is required"    |
-        |   "standard_user"   |    "secret_sauce"     |    exibida a página de compras com o termo "Products"    |
+        |        usuario        |          senha          |                                    mensagem                                       |
+        |  "usuario_invalido"   |   "secret_sauce"        |    "Epic sadface: Username and password do not match any user in this service"    |
+        |   "standard_user"     |   "chama_na_bota"       |    "Epic sadface: Username and password do not match any user in this service"    |
+        |   usuario em branco   |    "secret_sauce"       |    "Epic sadface: Username is required"                                           |
+        |   "standard_user"     |    "secret_sauce"       |    exibida a página de compras com o termo "Products"                             |
